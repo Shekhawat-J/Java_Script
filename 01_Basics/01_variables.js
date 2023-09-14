@@ -10,7 +10,7 @@ console.log(accountId);
 
 /*
 Prefer not to use var
-becuase of issuein block scope and fuctional scope 
+becuase of issue in block scope and fuctional scope 
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
