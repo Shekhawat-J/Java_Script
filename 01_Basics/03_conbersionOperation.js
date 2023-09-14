@@ -44,3 +44,23 @@ console.log(booleanIsLoggedIn); // True
     "" ==> false
     "Jitendra" ==> true
 */
+
+//**************************** Operations ******************************* 
+console.log("---------------------------------------------------------------------");
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+let str1 = "Hello";
+let str2 = " Jitendra";
+console.log(str1+str2); //Hello Jitendra
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32
+
+console.log(true); //true
+console.log(+true); //1
+//console.log(true+);//error
+console.log(+""); //0
